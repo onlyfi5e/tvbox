@@ -1,0 +1,30 @@
+{
+"spider":"./jar/pg.jar;md5;f565a30b771f9b53e146226bd94a97c1",
+"lives":[
+{"name":"Ray•综合","type":0,"url":"https://xhdwc.tk/tvlive.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"live","type":0,"url":"https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"YuanHsing•油管","type":0,"url":"https://fongmi.cachefly.net/YuanHsing/YouTube_to_m3u/main/youtube.m3u","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"直播","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/XX.m3u"},
+{"name":"Madou","type":0,"url":"https://fongmi.cachefly.net/YanG-1989/m3u/main/Adult.m3u"},
+{"name":"JAV","type":0,"url":"https://qu.ax/PEHy.txt"}
+
+],
+"wallpaper":"http://饭太硬.top/深色壁纸/api.php",
+"sites":[
+{"key":"bili_open","name":"哔哩貓","type":3,"api":"https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/bili_open.js","searchable":1,"changeable":0,"ext":{"categories":"沙雕动画#帕梅拉#音乐#舞蹈#风景#美食#科普#历史#法考#医考#法医学","cookie":""}},
+{"key":"文采","name":"文采┃秒播","type":3,"api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"贱贱","name":"贱贱┃P2P","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./lib/drpy2.min.js","ext":"./js/荐片.js"},
+{"key":"haiwaikan","name":"海外看","type":1,"api":"https://haiwaikan.com/api.php/provide/vod","searchable":1,"changeable":1}
+],
+"doh":[
+{"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
+{"name":"Cloudflare","url":"https://cloudflare-dns.com/dns-query","ips":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},
+{"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]},
+{"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},
+{"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}
+],
+"rules":[
+
+],
+"ads":["mozai.4gtv.tv"]
+}
